@@ -4,21 +4,21 @@ Type "copyright", "credits" or "license()" for more information.
 	a=0
 	b=0
 	c=0
-	while change>=2:
-		a = a + 1
-		change = change - 2
 	while change>=5:
-		b = b + 1
+		a = a + 1
 		change = change - 5
+	while change>=2:
+		b = b + 1
+		change = change - 2
 	if a!=0:
-		print a,        '*2'
+		print a,        '*5'
 	if b!=0:
-		print b,        '*5'
+		print b,        '*2'
 	if change != 0:
 		print change,        '*1'
 
 		
 >>> split_change(87)
-43 *2
-1 *1
+17 *5
+1 *2
 >>> 
